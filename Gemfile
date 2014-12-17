@@ -12,21 +12,21 @@ gem 'pry'
 gem 'bower-rails'
 gem 'angular-rails-templates'
 gem 'haml-rails'
-gem "foreman"
+gem 'foreman'
 
 group :production, :staging do
-    gem "rails_12factor"
-    gem "rails_stdout_logging"
-    gem "rails_serve_static_assets"
+    gem 'rails_12factor'
+    gem 'rails_stdout_logging'
+    gem 'rails_serve_static_assets'
 end
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 group :test, :development do
-  gem "rspec-rails", "~> 3.1.0"
-  gem "fabrication", "~> 2.11.3"
-  gem "capybara"
-  gem "database_cleaner"
-  gem "selenium-webdriver"
+  gem 'rspec-rails', '~> 3.1.0'
+  gem 'fabrication', '~> 2.11.3'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'selenium-webdriver'
 end
