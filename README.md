@@ -12,3 +12,4 @@ git push
 > vim config/database.yml # set the user/password for your local database
 > rake db:setup
 brew install node
+npm install bower
