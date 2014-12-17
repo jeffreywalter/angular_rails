@@ -10,6 +10,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sass', '~> 3.2.19'
 gem 'pry'
 gem 'bower-rails'
+gem 'angular-rails-templates'
+gem 'haml-rails'
 gem "foreman"
 
 group :production, :staging do
